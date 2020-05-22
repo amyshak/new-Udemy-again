@@ -66,8 +66,10 @@ do {
     i++;
 } while (i < 2);
 
-// let i = 0;
-// while (i < 2) {
+
+console.log(personalMovieDB);
+
+
 //     let a = prompt('Один из последних просмотренных фильмов?', ''),
 //         b = prompt('На сколько оцените его?', '');
 //     if (typeof (a) === 'string' && typeof (a) != null && typeof (b) != null &&

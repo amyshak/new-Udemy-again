@@ -99,11 +99,11 @@ console.log(personalMovieDB);
 /* 3) При помощи условий проверить  personalMovieDB.count, и если он меньше 10 - вывести сообщение
 "Просмотрено довольно мало фильмов", если от 10 до 30 - "Вы классический зритель", а если больше - 
 "Вы киноман". А если не подошло ни к одному варианту - "Произошла ошибка" */
-if ( numberOfFilms < 10) { 
+if (personalMovieDB.count < 10) { 
     alert ("Просмотрено довольно мало фильмов");
-} else if ( numberOfFilms >= 10 &&  numberOfFilms < 30) {
+} else if (personalMovieDB.count >= 10 &&  personalMovieDB.count < 30) {
         alert ("Вы классический зритель");
- } else if ( numberOfFilms >= 30){
+ } else if ( personalMovieDB.count >= 30){
      alert("Вы киноман");
  } else {
      alert("Произошла ошибка");}

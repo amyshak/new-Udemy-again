@@ -17,7 +17,7 @@ let numberOfFilms;
 
 function start(){
    numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
-   while ( numberOfFilms == '' || numberOfFilms === null || isNaN(numberOfFilms)){ 
+   if ( numberOfFilms == '' || numberOfFilms === null || isNaN(numberOfFilms)){ 
     numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
    }
 }
@@ -60,8 +60,8 @@ function detectMyLevel(){
 }
 detectMyLevel(); 
 
-function showMyDB(hidden){
-    if (!hidden)
+function showMyDB(hid){
+    if (!hid)
     { console.log(personalMovieDB);
     }
 }
